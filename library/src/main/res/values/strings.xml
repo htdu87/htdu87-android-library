@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Library</string>
+    <string name="msg_400">Bad request</string>
+    <string name="msg_401">Unauthorized</string>
+    <string name="msg_403">Forbidden</string>
+    <string name="msg_404">Not found</string>
+    <string name="msg_500">Internal Server Error</string>
+    <string name="msg_ukn">Error occurred</string>
+    <string name="pls_wait">Please wait...</string>
 </resources>

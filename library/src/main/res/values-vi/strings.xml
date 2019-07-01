@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thư viện</string>
+    <string name="msg_400">Yêu cầu không hợp lệ</string>
+    <string name="msg_401">Không có phép truy cập</string>
+    <string name="msg_403">Truy cập bị cấm</string>
+    <string name="msg_404">Không tìm thấy nội dung yêu cầu</string>
+    <string name="msg_500">Lỗi máy chủ</string>
+    <string name="msg_ukn">Đã có lỗi xãy ra</string>
+    <string name="pls_wait">Vui lòng chờ...</string>
+</resources>
