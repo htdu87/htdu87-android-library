@@ -8,17 +8,17 @@ import com.htdu87.android.library.ui.Loading;
 
 import java.lang.ref.WeakReference;
 
-public abstract class BaseAsyncTask<Params,Progress,Result> extends AsyncTask<Params,Progress,Result> {
+public abstract class BaseAsync<Params,Progress,Result> extends AsyncTask<Params,Progress,Result> {
     protected String msg;
     private WeakReference<Activity> weak;
     private Loading loading;
 
-    public BaseAsyncTask(Activity context) {
+    public BaseAsync(Activity context) {
         weak=new WeakReference<>(context);
         loading=new Loading(context);
     }
 
-    public BaseAsyncTask(Activity context, String waitingText) {
+    public BaseAsync(Activity context, String waitingText) {
         this(context);
         loading.setMessage(waitingText);
     }
