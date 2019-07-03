@@ -5,7 +5,8 @@
     <string name="msg_401">Không có phép truy cập</string>
     <string name="msg_403">Truy cập bị cấm</string>
     <string name="msg_404">Không tìm thấy nội dung yêu cầu</string>
-    <string name="msg_500">Lỗi máy chủ</string>
+    <string name="msg_500">Máy chủ gặp lỗi khi xử lý yêu cầu</string>
     <string name="msg_ukn">Đã có lỗi xãy ra</string>
     <string name="pls_wait">Vui lòng chờ...</string>
+    <string name="msg_502">Máy chủ đang gặp lỗi</string>
 </resources>

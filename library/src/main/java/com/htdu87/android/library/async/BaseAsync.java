@@ -59,6 +59,8 @@ public abstract class BaseAsync<Params,Progress,Result> extends AsyncTask<Params
                 return getContext().getString(R.string.msg_404);
             case 500:
                 return getContext().getString(R.string.msg_500);
+            case 502:
+                return getContext().getString(R.string.msg_502);
             default:
                 return getContext().getString(R.string.msg_ukn);
         }

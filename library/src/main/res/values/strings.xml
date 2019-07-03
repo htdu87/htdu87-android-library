@@ -7,4 +7,5 @@
     <string name="msg_500">Internal Server Error</string>
     <string name="msg_ukn">Error occurred</string>
     <string name="pls_wait">Please wait...</string>
+    <string name="msg_502">Bad gateway</string>
 </resources>
