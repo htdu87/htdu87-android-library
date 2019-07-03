@@ -23,7 +23,7 @@
         android:id="@+id/lbl_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pls_wait"
+        android:text="@string/htdu87_lib_pls_wait"
         style="@style/Base.TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@id/progress_bar"
         app:layout_constraintLeft_toLeftOf="parent"
