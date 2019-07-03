@@ -1,11 +1,10 @@
 <resources>
-    <string name="app_name">Library</string>
-    <string name="msg_400">Bad request</string>
-    <string name="msg_401">Unauthorized</string>
-    <string name="msg_403">Forbidden</string>
-    <string name="msg_404">Not found</string>
-    <string name="msg_500">Internal Server Error</string>
-    <string name="msg_ukn">Error occurred</string>
-    <string name="pls_wait">Please wait...</string>
-    <string name="msg_502">Bad gateway</string>
+    <string name="htdu87_lib_msg_400">Bad request</string>
+    <string name="htdu87_lib_msg_401">Unauthorized</string>
+    <string name="htdu87_lib_msg_403">Forbidden</string>
+    <string name="htdu87_lib_msg_404">Not found</string>
+    <string name="htdu87_lib_msg_500">Internal Server Error</string>
+    <string name="htdu87_lib_msg_ukn">Error occurred</string>
+    <string name="htdu87_lib_pls_wait">Please wait...</string>
+    <string name="htdu87_lib_msg_502">Bad gateway</string>
 </resources>

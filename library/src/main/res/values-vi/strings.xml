@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Thư viện</string>
-    <string name="msg_400">Yêu cầu không hợp lệ</string>
-    <string name="msg_401">Không có phép truy cập</string>
-    <string name="msg_403">Truy cập bị cấm</string>
-    <string name="msg_404">Không tìm thấy nội dung yêu cầu</string>
-    <string name="msg_500">Máy chủ gặp lỗi khi xử lý yêu cầu</string>
-    <string name="msg_ukn">Đã có lỗi xãy ra</string>
-    <string name="pls_wait">Vui lòng chờ...</string>
-    <string name="msg_502">Máy chủ đang gặp lỗi</string>
+    <string name="htdu87_lib_msg_400">Yêu cầu không hợp lệ</string>
+    <string name="htdu87_lib_msg_401">Không có phép truy cập</string>
+    <string name="htdu87_lib_msg_403">Truy cập bị cấm</string>
+    <string name="htdu87_lib_msg_404">Không tìm thấy nội dung yêu cầu</string>
+    <string name="htdu87_lib_msg_500">Máy chủ gặp lỗi khi xử lý yêu cầu</string>
+    <string name="htdu87_lib_msg_ukn">Đã có lỗi xãy ra</string>
+    <string name="htdu87_lib_pls_wait">Vui lòng chờ...</string>
+    <string name="htdu87_lib_msg_502">Máy chủ đang gặp lỗi</string>
 </resources>

@@ -50,19 +50,19 @@ public abstract class BaseAsync<Params,Progress,Result> extends AsyncTask<Params
     protected String statusCode2Msg(int code){
         switch (code){
             case 400:
-                return getContext().getString(R.string.msg_400);
+                return getContext().getString(R.string.htdu87_lib_msg_400);
             case 401:
-                return getContext().getString(R.string.msg_401);
+                return getContext().getString(R.string.htdu87_lib_msg_401);
             case 403:
-                return getContext().getString(R.string.msg_403);
+                return getContext().getString(R.string.htdu87_lib_msg_403);
             case 404:
-                return getContext().getString(R.string.msg_404);
+                return getContext().getString(R.string.htdu87_lib_msg_404);
             case 500:
-                return getContext().getString(R.string.msg_500);
+                return getContext().getString(R.string.htdu87_lib_msg_500);
             case 502:
-                return getContext().getString(R.string.msg_502);
+                return getContext().getString(R.string.htdu87_lib_msg_502);
             default:
-                return getContext().getString(R.string.msg_ukn);
+                return getContext().getString(R.string.htdu87_lib_msg_ukn);
         }
     }
 }
