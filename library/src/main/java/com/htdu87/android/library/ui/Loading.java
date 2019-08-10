@@ -20,7 +20,7 @@ public class Loading extends Dialog {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.loading);
         setCancelable(false);
-        getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        if (getWindow()!=null)getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         lblMsg=findViewById(R.id.lbl_msg);
     }
 
