@@ -4,6 +4,7 @@
 
     <!--<solid android:color="#DAFFFFFF"/>-->
     <solid android:color="@color/colorBackgroundDialog"/>
+    <stroke android:color="@color/colorBorderDialog" android:width="1dp"/>
     <corners android:radius="8dp"/>
 
 </shape>
