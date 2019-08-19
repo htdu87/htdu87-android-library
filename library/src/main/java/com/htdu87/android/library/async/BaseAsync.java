@@ -2,6 +2,7 @@ package com.htdu87.android.library.async;
 
 import android.app.Activity;
 import android.os.AsyncTask;
+import android.os.Build;
 
 import com.htdu87.android.library.R;
 import com.htdu87.android.library.ui.Loading;
@@ -30,6 +31,11 @@ public abstract class BaseAsync<Params,Progress,Result> extends AsyncTask<Params
 
     @Override
     protected void onPostExecute(Result result) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            if (weak.get().isDestroyed())return;
+        }else {
+            if (weak.get().isFinishing())return;
+        }
         loading.dismiss();
     }
 
@@ -64,5 +70,9 @@ public abstract class BaseAsync<Params,Progress,Result> extends AsyncTask<Params
             default:
                 return getContext().getString(R.string.htdu87_lib_msg_ukn);
         }
+    }
+
+    public void dismiss(){
+        loading.dismiss();
     }
 }
